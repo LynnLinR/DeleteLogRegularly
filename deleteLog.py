@@ -61,15 +61,17 @@ def main(path):
     print("任务执行一次结束")
     # input()
 
+
 def test(text_str):
     print("test：" + timestamp_to_time(time.time()) + "--" + text_str)
+
 
 if __name__ == '__main__':
     print("定时任务开启：" + timestamp_to_time(time.time()))
 
     schedule.every().day.at("9:00").do(main, "./logs/")  # 定时每天9点开始
-    schedule.every().hour.do(test,"测试,进程还活着")  # 每小时进行测试
-    
+    schedule.every().hour.do(test, "测试,进程还活着")  # 每小时进行测试
+
     # main("./logs/")
 
     while True:
