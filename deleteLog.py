@@ -1,6 +1,8 @@
-import os
-import time
 import operator  # 用于list排序
+import os
+import re
+import time
+
 import schedule  # 用于轻量级定时任务
 
 
@@ -54,9 +56,10 @@ def main(path):
 
     # 时间戳计算 3天 -> 3 * 24 * 60 * 60 = 259200
     for item in tempList:
-        if int(item[4]) < (int(tempList[0][4])-259200):
-            print("删除：" + item[0])
-            os.remove(item[0])
+        if re.match(r'.log_\w{4}-\w{2}-\w{2}',item[2],0):
+            if int(item[4]) < (int(tempList[0][4])-259200):
+                print("删除：" + item[0])
+                os.remove(item[0])
 
     print("任务执行一次结束")
     # input()
@@ -68,6 +71,8 @@ def test(text_str):
 
 if __name__ == '__main__':
     print("定时任务开启：" + timestamp_to_time(time.time()))
+
+    main('./logs')  # 第一次启动清理一次
 
     schedule.every().day.at("9:00").do(main, "./logs/")  # 定时每天9点开始
     schedule.every().hour.do(test, "测试,进程还活着")  # 每小时进行测试
