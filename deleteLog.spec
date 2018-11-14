@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['deleteLog.py'],
-             pathex=['C:\\Users\\linro\\Downloads'],
+             pathex=['C:\\Users\\linro\\OneDrive\\WROK-my\\python\\定期清理日志python'],
              binaries=[],
              datas=[],
              hiddenimports=[],

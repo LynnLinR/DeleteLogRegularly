@@ -1,0 +1,289 @@
+九月 21, 2018 3:47:29 下午 org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/real_sync20180905_1_0935]
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync20180905_1_0935] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync20180905_1_0935] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [FileWatchdog] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Curator-ConnectionStateManager-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [pool-2-thread-1-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [pool-2-thread-1-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Curator-Framework-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [tagDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Curator-TreeCache-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [productDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Curator-TreeCache-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [send_smsjob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Curator-TreeCache-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Regularlysend_smsjob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Curator-TreeCache-3] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [inner-job-tagDataflowJob-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [inner-job-tagDataflowJob-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [inner-job-productDataflowJob-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [inner-job-productDataflowJob-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [tagDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [productDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [send_smsjob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync20180905_1_0935] appears to have started a thread named [Regularlysend_smsjob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transaction synchronizations]) and a value of type [java.util.LinkedHashSet] (value [[org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization@fc432c]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Current aspect-driven transaction]) and a value of type [org.springframework.transaction.interceptor.TransactionAspectSupport.TransactionInfo] (value [PROPAGATION_REQUIRED,ISOLATION_DEFAULT; '']) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Current transaction name]) and a value of type [java.lang.String] (value [com.zjht.service.impl.TagServiceImpl.dealTagData]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transactional resources]) and a value of type [java.util.HashMap] (value [{org.apache.ibatis.session.defaults.DefaultSqlSessionFactory@185537d=org.mybatis.spring.SqlSessionHolder@b61054, org.apache.commons.dbcp.BasicDataSource@4c301d=org.springframework.jdbc.datasource.ConnectionHolder@ea0ea6}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [io.shardingsphere.core.executor.threadlocal.ExecutorDataMap$1] (value [io.shardingsphere.core.executor.threadlocal.ExecutorDataMap$1@67f355]) and a value of type [java.util.LinkedHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@986004]) and a value of type [org.apache.ibatis.executor.ErrorContext] (value [
+### The error may involve com.zjht.mybatisdao.mapper.TbTagMapper.updateByPrimaryKeySelective-Inline
+### The error occurred while setting parameters
+### SQL: update TB_TAG      SET TARGET_ID = ?,                       COMP_ID = ?,                       POINT_ID = ?,                       TAG_NAME = ?,                       TAG_TANK = ?,                       TAG_SIGN = ?,                       TAG_UNIT = ?,                       TAG_DECIMAL = ?,                       TAG_LLIMIT = ?,                       TAG_HLIMIT = ?,                       TAG_LWARN = ?,                       TAG_HWARN = ?,                       TAG_LALARM = ?,                       TAG_HALARM = ?,                       TAG_VALUE = ?,                       TAG_ALARM = ?,                                     TAG_TIME = ?,                       TAG_DELETE = ?,                       TAG_PAUSE = ?,                                     TAG_FLAG_DATE = null      where TAG_ID = ?]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Actual transaction active]) and a value of type [java.lang.Boolean] (value [true]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transaction synchronizations]) and a value of type [java.util.LinkedHashSet] (value [[org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization@19e3ed5]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Current aspect-driven transaction]) and a value of type [org.springframework.transaction.interceptor.TransactionAspectSupport.TransactionInfo] (value [PROPAGATION_REQUIRED,ISOLATION_DEFAULT; '']) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Current transaction name]) and a value of type [java.lang.String] (value [com.zjht.service.impl.TagServiceImpl.dealTagData]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transactional resources]) and a value of type [java.util.HashMap] (value [{org.apache.ibatis.session.defaults.DefaultSqlSessionFactory@185537d=org.mybatis.spring.SqlSessionHolder@1c7de4f, org.apache.commons.dbcp.BasicDataSource@4c301d=org.springframework.jdbc.datasource.ConnectionHolder@d41886}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [io.shardingsphere.core.executor.threadlocal.ExecutorDataMap$1] (value [io.shardingsphere.core.executor.threadlocal.ExecutorDataMap$1@67f355]) and a value of type [java.util.LinkedHashMap] (value [{}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@986004]) and a value of type [org.apache.ibatis.executor.ErrorContext] (value [
+### The error may involve com.zjht.mybatisdao.mapper.TbTagMapper.updateByPrimaryKeySelective-Inline
+### The error occurred while setting parameters
+### SQL: update TB_TAG      SET TARGET_ID = ?,                       COMP_ID = ?,                       POINT_ID = ?,                       TAG_NAME = ?,                       TAG_TANK = ?,                       TAG_SIGN = ?,                       TAG_UNIT = ?,                       TAG_DECIMAL = ?,                       TAG_LLIMIT = ?,                       TAG_HLIMIT = ?,                              TAG_HWARN = ?,                              TAG_HALARM = ?,                       TAG_VALUE = ?,                       TAG_ALARM = ?,                                     TAG_TIME = ?,                       TAG_DELETE = ?,                       TAG_PAUSE = ?,                              TAG_FLAG_DATE = ?      where TAG_ID = ?]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:29 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/real_sync20180905_1_0935] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Actual transaction active]) and a value of type [java.lang.Boolean] (value [true]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+九月 21, 2018 3:47:40 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 21, 2018 3:47:40 下午 org.apache.catalina.startup.ContextConfig init
+SEVERE: Exception fixing docBase for context [/real_sync]
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:214)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:144)
+	at java.util.jar.JarFile.<init>(JarFile.java:153)
+	at java.util.jar.JarFile.<init>(JarFile.java:90)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:93)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:98)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:122)
+	at sun.net.www.protocol.jar.JarURLConnection.getJarFile(JarURLConnection.java:89)
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:112)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:669)
+	at org.apache.catalina.startup.ContextConfig.init(ContextConfig.java:793)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:320)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:401)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:110)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:139)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:842)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:615)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:958)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1599)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 21, 2018 3:47:40 下午 org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Invalid or unreadable WAR file : error in opening zip file
+	at org.apache.naming.resources.WARDirContext.setDocBase(WARDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4880)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5060)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:842)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:615)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:958)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1599)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 21, 2018 3:47:40 下午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error in resourceStart()
+九月 21, 2018 3:47:40 下午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+九月 21, 2018 3:47:40 下午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/real_sync] startup failed due to previous errors
+九月 21, 2018 3:48:15 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 21, 2018 3:48:15 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 21, 2018 3:48:16 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 3:48:16 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 3:48:16 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 992 ms
+九月 21, 2018 3:48:16 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 21, 2018 3:48:16 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 21, 2018 3:48:16 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 21, 2018 3:48:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 21, 2018 3:48:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 21, 2018 3:48:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 21, 2018 3:48:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 21, 2018 3:48:24 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 21, 2018 3:48:24 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 3:48:25 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 3:48:25 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8847 ms
+九月 21, 2018 3:52:56 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 21, 2018 3:52:56 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 21, 2018 3:52:56 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 3:52:56 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 3:52:56 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 985 ms
+九月 21, 2018 3:52:56 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 21, 2018 3:52:56 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 21, 2018 3:52:56 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 21, 2018 3:53:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 21, 2018 3:53:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 21, 2018 3:53:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 21, 2018 3:53:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 21, 2018 3:53:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 21, 2018 3:53:05 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 3:53:05 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 3:53:05 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8167 ms
+九月 21, 2018 3:53:21 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 21, 2018 3:53:21 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 21, 2018 3:53:22 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 3:53:22 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 3:53:22 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 998 ms
+九月 21, 2018 3:53:22 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 21, 2018 3:53:22 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 21, 2018 3:53:22 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 21, 2018 3:53:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 21, 2018 3:53:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 21, 2018 3:53:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 21, 2018 3:53:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 21, 2018 3:53:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 21, 2018 3:53:29 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 3:53:29 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 3:53:29 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 7821 ms
+九月 21, 2018 4:10:03 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 21, 2018 4:10:03 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 21, 2018 4:10:04 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 4:10:04 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 4:10:04 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 989 ms
+九月 21, 2018 4:10:04 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 21, 2018 4:10:04 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 21, 2018 4:10:04 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 21, 2018 4:10:12 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 21, 2018 4:10:12 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 21, 2018 4:10:12 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 21, 2018 4:10:12 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 21, 2018 4:10:12 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 21, 2018 4:10:12 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 21, 2018 4:10:12 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 21, 2018 4:10:12 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8172 ms

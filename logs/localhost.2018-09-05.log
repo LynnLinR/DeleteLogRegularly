@@ -1,0 +1,12 @@
+九月 05, 2018 9:35:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync20180905_1_0935\]
+九月 05, 2018 9:35:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync20180905_1_0935\WEB-INF\classes\log4j.properties]
+九月 05, 2018 9:35:40 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 05, 2018 9:35:48 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+九月 05, 2018 9:35:48 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+九月 05, 2018 9:35:48 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1ef2b69')

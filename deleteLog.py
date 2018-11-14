@@ -72,13 +72,11 @@ def test(text_str):
 if __name__ == '__main__':
     print("定时任务开启：" + timestamp_to_time(time.time()))
 
-    main('./logs')  # 第一次启动清理一次
-
     schedule.every().day.at("9:00").do(main, "./logs/")  # 定时每天9点开始
     schedule.every().hour.do(test, "测试,进程还活着")  # 每小时进行测试
 
-    # main("./logs/")
+    main("./logs/")  # 第一次启动清理一次
 
     while True:
         schedule.run_pending()
-        time.sleep(10)  # 10秒检测一次任务
+        time.sleep(60)  # 10秒检测一次任务

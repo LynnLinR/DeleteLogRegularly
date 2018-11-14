@@ -1,0 +1,811 @@
+九月 26, 2018 10:59:12 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj.war
+九月 26, 2018 10:59:22 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+九月 26, 2018 10:59:22 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/cxf_qzaj] startup failed due to previous errors
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/cxf_qzaj] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [Curator-ConnectionStateManager-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [pool-2-thread-2-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [pool-2-thread-2-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [Curator-Framework-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [syncUserJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [Timer-4] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [Curator-TreeCache-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:22 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/cxf_qzaj] appears to have started a thread named [syncUserJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:23 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.net.URLEncoder.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.utils.UpdateChecker.urlEncode(UpdateChecker.java:156)
+	at org.quartz.utils.UpdateChecker.buildParamsString(UpdateChecker.java:122)
+	at org.quartz.utils.UpdateChecker.buildUpdateCheckUrl(UpdateChecker.java:114)
+	at org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:55)
+	at org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+	at org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+九月 26, 2018 10:59:40 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 26, 2018 10:59:40 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 26, 2018 10:59:41 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 26, 2018 10:59:41 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 26, 2018 10:59:41 上午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 965 ms
+九月 26, 2018 10:59:41 上午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 26, 2018 10:59:41 上午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 26, 2018 10:59:41 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj.war
+九月 26, 2018 10:59:45 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/real_sync] startup failed due to previous errors
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-ConnectionStateManager-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [pool-2-thread-1-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [pool-2-thread-1-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-Framework-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [tagDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [productDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [send_smsjob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Regularlysend_smsjob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-4] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-3] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [tagDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [productDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [send_smsjob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Regularlysend_smsjob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 10:59:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 26, 2018 10:59:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 26, 2018 10:59:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 26, 2018 10:59:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 26, 2018 10:59:51 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 26, 2018 10:59:51 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 26, 2018 10:59:51 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 26, 2018 10:59:51 上午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 10729 ms
+九月 26, 2018 10:59:52 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.net.URLEncoder.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.utils.UpdateChecker.urlEncode(UpdateChecker.java:156)
+	at org.quartz.utils.UpdateChecker.buildParamsString(UpdateChecker.java:122)
+	at org.quartz.utils.UpdateChecker.buildUpdateCheckUrl(UpdateChecker.java:114)
+	at org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:55)
+	at org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+	at org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+九月 26, 2018 11:00:00 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.quartz.spi.TriggerFiredBundle.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.simpl.RAMJobStore.triggersFired(RAMJobStore.java:1510)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:336)
+
+九月 26, 2018 11:00:00 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.quartz.spi.TriggerFiredBundle.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.simpl.RAMJobStore.triggersFired(RAMJobStore.java:1510)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:336)
+
+九月 26, 2018 11:00:00 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.quartz.spi.TriggerFiredBundle.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.simpl.RAMJobStore.triggersFired(RAMJobStore.java:1510)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:336)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load com.dangdang.ddframe.job.lite.internal.server.ServerStatus.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at com.dangdang.ddframe.job.lite.internal.server.ServerService.isEnableServer(ServerService.java:99)
+	at com.dangdang.ddframe.job.lite.internal.server.ServerService.isAvailableServer(ServerService.java:80)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderElectionJobListener.isPassiveElection(ElectionListenerManager.java:75)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderElectionJobListener.dataChanged(ElectionListenerManager.java:65)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.ThrowableInformation.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:165)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.Log4jLoggerAdapter.error(Log4jLoggerAdapter.java:575)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:98)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.ThrowableInformation.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:165)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.Log4jLoggerAdapter.error(Log4jLoggerAdapter.java:575)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:98)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.curator.framework.imps.GetChildrenBuilderImpl$3.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.pathInForeground(GetChildrenBuilderImpl.java:201)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:191)
+	at org.apache.curator.framework.imps.GetChildrenBuilderImpl.forPath(GetChildrenBuilderImpl.java:38)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getChildrenKeys(ZookeeperRegistryCenter.java:170)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeChildrenKeys(JobNodeStorage.java:92)
+	at com.dangdang.ddframe.job.lite.internal.failover.FailoverService.getFailoverItems(FailoverService.java:101)
+	at com.dangdang.ddframe.job.lite.internal.failover.FailoverListenerManager$JobCrashedJobListener.dataChanged(FailoverListenerManager.java:83)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:00:05 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.zookeeper.KeeperException$SystemErrorException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:304)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl$4.call(GetDataBuilderImpl.java:293)
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:108)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.pathInForeground(GetDataBuilderImpl.java:290)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:281)
+	at org.apache.curator.framework.imps.GetDataBuilderImpl.forPath(GetDataBuilderImpl.java:42)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.getDirectly(ZookeeperRegistryCenter.java:158)
+	at com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter.get(ZookeeperRegistryCenter.java:143)
+	at com.dangdang.ddframe.job.lite.internal.storage.JobNodeStorage.getJobNodeData(JobNodeStorage.java:72)
+	at com.dangdang.ddframe.job.lite.internal.election.LeaderService.isLeader(LeaderService.java:84)
+	at com.dangdang.ddframe.job.lite.internal.election.ElectionListenerManager$LeaderAbdicationJobListener.dataChanged(ElectionListenerManager.java:91)
+	at com.dangdang.ddframe.job.lite.internal.listener.AbstractJobListener.childEvent(AbstractJobListener.java:44)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:732)
+	at org.apache.curator.framework.recipes.cache.TreeCache$2.apply(TreeCache.java:726)
+	at org.apache.curator.framework.listen.ListenerContainer$1.run(ListenerContainer.java:93)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutorService.execute(MoreExecutors.java:299)
+	at org.apache.curator.framework.listen.ListenerContainer.forEach(ListenerContainer.java:85)
+	at org.apache.curator.framework.recipes.cache.TreeCache.callListeners(TreeCache.java:725)
+	at org.apache.curator.framework.recipes.cache.TreeCache.access$1400(TreeCache.java:71)
+	at org.apache.curator.framework.recipes.cache.TreeCache$4.run(TreeCache.java:843)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:02:20 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 26, 2018 11:02:20 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 26, 2018 11:02:21 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 26, 2018 11:02:21 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 26, 2018 11:02:21 上午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 983 ms
+九月 26, 2018 11:02:21 上午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 26, 2018 11:02:21 上午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 26, 2018 11:02:21 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj.war
+九月 26, 2018 11:02:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 26, 2018 11:02:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 26, 2018 11:02:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 26, 2018 11:02:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 26, 2018 11:02:25 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync
+九月 26, 2018 11:02:33 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+九月 26, 2018 11:02:33 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/real_sync] startup failed due to previous errors
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-ConnectionStateManager-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [pool-2-thread-1-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [pool-2-thread-1-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-Framework-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [tagDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [productDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [send_smsjob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Regularlysend_smsjob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-4] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-3] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [tagDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [productDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [send_smsjob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Regularlysend_smsjob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:02:33 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 26, 2018 11:02:33 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 26, 2018 11:02:33 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 26, 2018 11:02:33 上午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11618 ms
+九月 26, 2018 11:02:33 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.net.URLEncoder.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.utils.UpdateChecker.urlEncode(UpdateChecker.java:156)
+	at org.quartz.utils.UpdateChecker.buildParamsString(UpdateChecker.java:122)
+	at org.quartz.utils.UpdateChecker.buildUpdateCheckUrl(UpdateChecker.java:114)
+	at org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:55)
+	at org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+	at org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+九月 26, 2018 11:02:40 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.quartz.spi.TriggerFiredBundle.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.simpl.RAMJobStore.triggersFired(RAMJobStore.java:1510)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:336)
+
+九月 26, 2018 11:08:01 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 26, 2018 11:08:02 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 26, 2018 11:08:02 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 26, 2018 11:08:02 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 26, 2018 11:08:02 上午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 972 ms
+九月 26, 2018 11:08:02 上午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 26, 2018 11:08:02 上午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 26, 2018 11:08:02 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj.war
+九月 26, 2018 11:08:06 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync.war
+九月 26, 2018 11:08:13 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+九月 26, 2018 11:08:14 上午 org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/real_sync] startup failed due to previous errors
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/real_sync] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-ConnectionStateManager-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [pool-2-thread-1-SendThread(127.0.0.1:2181)] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [pool-2-thread-1-EventThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-Framework-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [tagDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-0] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [productDataflowJob_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [Curator-TreeCache-1] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [ReconcileService] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [tagDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/real_sync] appears to have started a thread named [productDataflowJob_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+九月 26, 2018 11:08:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 26, 2018 11:08:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 26, 2018 11:08:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 26, 2018 11:08:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 26, 2018 11:08:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 26, 2018 11:08:14 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 26, 2018 11:08:14 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 26, 2018 11:08:14 上午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11566 ms
+九月 26, 2018 11:08:14 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.net.URLEncoder.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.utils.UpdateChecker.urlEncode(UpdateChecker.java:156)
+	at org.quartz.utils.UpdateChecker.buildParamsString(UpdateChecker.java:122)
+	at org.quartz.utils.UpdateChecker.buildUpdateCheckUrl(UpdateChecker.java:114)
+	at org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:55)
+	at org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+	at org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+九月 26, 2018 11:08:20 上午 org.apache.catalina.loader.WebappClassLoader loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.quartz.spi.TriggerFiredBundle.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1574)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1533)
+	at org.quartz.simpl.RAMJobStore.triggersFired(RAMJobStore.java:1510)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:336)
+

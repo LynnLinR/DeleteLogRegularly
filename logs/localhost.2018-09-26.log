@@ -1,0 +1,150 @@
+九月 26, 2018 10:59:19 上午 org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.IllegalStateException: Web app root system property already set to different value: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync\] instead of [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\] - Choose unique values for the 'webAppRootKey' context-param in your web.xml files!
+	at org.springframework.web.util.WebUtils.setWebAppRootSystemProperty(WebUtils.java:151)
+	at org.springframework.web.util.Log4jWebConfigurer.initLogging(Log4jWebConfigurer.java:117)
+	at org.springframework.web.util.Log4jConfigListener.contextInitialized(Log4jConfigListener.java:45)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4765)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5260)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:842)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:615)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:958)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1599)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 10:59:19 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 10:59:22 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+九月 26, 2018 10:59:22 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+九月 26, 2018 10:59:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\]
+九月 26, 2018 10:59:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\WEB-INF\classes\log4j.properties]
+九月 26, 2018 10:59:41 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 10:59:45 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'springmvc'
+九月 26, 2018 10:59:45 上午 org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.IllegalStateException: Web app root system property already set to different value: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\] instead of [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync\] - Choose unique values for the 'webAppRootKey' context-param in your web.xml files!
+	at org.springframework.web.util.WebUtils.setWebAppRootSystemProperty(WebUtils.java:148)
+	at org.springframework.web.util.Log4jWebConfigurer.initLogging(Log4jWebConfigurer.java:117)
+	at org.springframework.web.util.Log4jConfigListener.contextInitialized(Log4jConfigListener.java:45)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4765)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5260)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:842)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:615)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:958)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1599)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 10:59:45 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+九月 26, 2018 10:59:51 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@11a928b')
+九月 26, 2018 11:02:22 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\]
+九月 26, 2018 11:02:22 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\WEB-INF\classes\log4j.properties]
+九月 26, 2018 11:02:22 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 11:02:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'springmvc'
+九月 26, 2018 11:02:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+九月 26, 2018 11:02:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+九月 26, 2018 11:02:25 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5d67f0')
+九月 26, 2018 11:02:26 上午 org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.IllegalStateException: Web app root system property already set to different value: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\] instead of [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync\] - Choose unique values for the 'webAppRootKey' context-param in your web.xml files!
+	at org.springframework.web.util.WebUtils.setWebAppRootSystemProperty(WebUtils.java:148)
+	at org.springframework.web.util.Log4jWebConfigurer.initLogging(Log4jWebConfigurer.java:117)
+	at org.springframework.web.util.Log4jConfigListener.contextInitialized(Log4jConfigListener.java:45)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4765)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5260)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:842)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:615)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1095)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1617)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:02:26 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 11:02:33 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+九月 26, 2018 11:02:33 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+九月 26, 2018 11:08:03 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\]
+九月 26, 2018 11:08:03 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\WEB-INF\classes\log4j.properties]
+九月 26, 2018 11:08:03 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 11:08:06 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'springmvc'
+九月 26, 2018 11:08:07 上午 org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.IllegalStateException: Web app root system property already set to different value: 'myapp.root' = [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\cxf_qzaj\] instead of [C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync\] - Choose unique values for the 'webAppRootKey' context-param in your web.xml files!
+	at org.springframework.web.util.WebUtils.setWebAppRootSystemProperty(WebUtils.java:148)
+	at org.springframework.web.util.Log4jWebConfigurer.initLogging(Log4jWebConfigurer.java:117)
+	at org.springframework.web.util.Log4jConfigListener.contextInitialized(Log4jConfigListener.java:45)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4765)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5260)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:842)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:615)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:958)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1599)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:722)
+
+九月 26, 2018 11:08:07 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+九月 26, 2018 11:08:14 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+九月 26, 2018 11:08:14 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+九月 26, 2018 11:08:14 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+九月 26, 2018 11:08:14 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+九月 26, 2018 11:08:14 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@d4d279')

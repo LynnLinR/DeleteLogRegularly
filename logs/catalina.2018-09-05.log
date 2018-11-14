@@ -1,0 +1,32 @@
+九月 05, 2018 9:35:38 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.22.
+九月 05, 2018 9:35:38 上午 org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [false], sendfile [true], accept filters [false], random [true].
+九月 05, 2018 9:35:39 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8888"]
+九月 05, 2018 9:35:39 上午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8010"]
+九月 05, 2018 9:35:39 上午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1023 ms
+九月 05, 2018 9:35:39 上午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+九月 05, 2018 9:35:39 上午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.23
+九月 05, 2018 9:35:39 上午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\real_sync20180905_1_0935.war
+九月 05, 2018 9:35:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\docs
+九月 05, 2018 9:35:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\examples
+九月 05, 2018 9:35:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\host-manager
+九月 05, 2018 9:35:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\manager
+九月 05, 2018 9:35:48 上午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.23\apache-tomcat-7.0.23\webapps\ROOT
+九月 05, 2018 9:35:48 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8888"]
+九月 05, 2018 9:35:48 上午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8010"]
+九月 05, 2018 9:35:48 上午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8582 ms
